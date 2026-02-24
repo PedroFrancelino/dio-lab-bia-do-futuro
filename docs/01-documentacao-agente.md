@@ -5,12 +5,12 @@
 ### Problema
 > Qual problema financeiro seu agente resolve?
 
-Diversas pessoas tem problemas com controle de gastos, prevenção de endividamento e educação financeira
+Grande parte da população enfrenta dificuldades em controlar seus gastos, prevenir o endividamento e desenvolver hábitos de educação financeira. Além disso, há uma lacuna significativa no acesso a informações claras e práticas sobre investimentos, o que limita a capacidade das pessoas de construir patrimônio e alcançar estabilidade financeira.
 
 ### Solução
 > Como o agente resolve esse problema de forma proativa?
 
-O agente vai explicar de forma educativa e simples como pode se previnir de endividamento, controle de gastos, usando os dados do cliente como exemplo, e explicando como ele pode melhorar seus investimentos mostrando exemplos no que investir, e sobre educação financeira
+O agente vai explicar de forma educativa e simples como pode se previnir de endividamento, controle de gastos, usando os dados do cliente como exemplo, vai falar sobre investimentos para o cliente mostrando seu rendimento ao ano e aao perfil de investidor que se encaixa, e falar sobre educação financeira.
 
 ### Público-Alvo
 > Quem vai usar esse agente?
