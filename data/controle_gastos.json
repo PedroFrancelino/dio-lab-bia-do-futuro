@@ -3,6 +3,10 @@
   "titulo": "Monitorar as despesas mensais",
   "condicao_cliente": {
     "nome": "Maria Leticia",
+    "idade": 27,
+    "profissao": "Medica Veterinaria",
+    "cidade": "São Paulo",
+    "estado_civil": "Casada",
     "renda_mensal": 6000,
     "gastos_fixos": 2800,
     "gastos_variaveis": 2500

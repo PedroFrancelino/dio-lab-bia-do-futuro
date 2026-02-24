@@ -3,6 +3,10 @@
   "titulo": "Evitar dívidas desnecessárias",
   "condicao_cliente": {
     "nome": "Gabriel Henrique",
+    "idade": 34,
+    "profissao": "Gerente de produção",
+    "cidade": "Rio de Janeiro",
+    "estado_civil": "Solteiro",
     "renda_mensal": 4000,
     "divida_atual": 2500,
     "gastos_cartao_credito": 1800
