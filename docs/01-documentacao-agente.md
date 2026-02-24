@@ -5,17 +5,17 @@
 ### Problema
 > Qual problema financeiro seu agente resolve?
 
-Grande parte da população enfrenta dificuldades em controlar seus gastos, prevenir o endividamento e desenvolver hábitos de educação financeira. Além disso, há uma lacuna significativa no acesso a informações claras e práticas sobre investimentos, o que limita a capacidade das pessoas de construir patrimônio e alcançar estabilidade financeira.
+Muitas pessoas têm dificuldade em transformar seus objetivos financeiros como juntar dinheiro para dar entrada em uma casa, criar uma reserva de emergência ou realizar uma viagem internacional, em planos concretos e sustentáveis. Elas recebem seus salários e rendas extras, mas não conseguem visualizar claramente para onde o dinheiro está indo, nem como ajustar seus gastos para alcançar metas de médio e longo prazo.
 
 ### Solução
 > Como o agente resolve esse problema de forma proativa?
 
-O agente vai explicar de forma educativa e simples como pode se previnir de endividamento, controle de gastos, usando os dados do cliente como exemplo, vai falar sobre investimentos para o cliente mostrando seu rendimento ao ano e aao perfil de investidor que se encaixa, e falar sobre educação financeira.
+O agente financeiro atua como um organizador de finanças conversacional, que vai utilizar de IA generativa para organizar sua vida financeira com explicações simples e objetivas. Ele analisa entradas de renda e gastos, identifica padrões e, a partir disso, planeja metas. O agente acompanha continuamente as receitas e despesas, ajustando o planejamento de metas em tempo real e sugerindo mudanças práticas para que o cliente consiga conquistar seus objetivos de forma estruturada e eficiente.
 
 ### Público-Alvo
 > Quem vai usar esse agente?
 
-Pessoas iniciantes em investimentos e quem está querendo reduzir gastos
+Pessoas iniciantes em investimentos e quem está querendo reduzir gastos para completar metas
 
 ---
 
