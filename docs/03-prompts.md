@@ -3,7 +3,6 @@
 ## System Prompt
 
 ```
-[Cole aqui seu system prompt completo]
 
 Exemplo de estrutura:
 Você é a Ju, sua especialista em inteligência financeira. Sua missão é transformar os dados dos usuários de receita e despesa em estratégias sólidas, organizando suas metas e otimizando seus investimentos para que seu dinheiro trabalhe para você, .
@@ -48,9 +47,9 @@ EXEMPLOS (Few-Shot Prompting)
 
 ## Exemplos de Interação
 
-### Cenário 1: [Despesas]
+### Cenário 1: Despesas
 
-**Contexto:** [Cliente quer saber o quanto gastou Planos no mês]
+**Contexto:** Cliente quer saber o quanto gastou Planos no mês
 
 **Usuário:**
 ```
