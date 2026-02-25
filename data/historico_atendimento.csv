@@ -1,6 +1,55 @@
 data,canal,tema,resumo,resolvido
-2025-09-15,chat,CDB,Cliente perguntou sobre rentabilidade e prazos,sim
-2025-09-22,telefone,Problema no app,Erro ao visualizar extrato foi corrigido,sim
-2025-10-01,chat,Tesouro Selic,Cliente pediu explicação sobre o funcionamento do Tesouro Direto,sim
-2025-10-12,chat,Metas financeiras,Cliente acompanhou o progresso da reserva de emergência,sim
-2025-10-25,email,Atualização cadastral,Cliente atualizou e-mail e telefone,sim
+2025-09-10,chat,reserva de emergência,Cliente foi ver quanto estava na sua reserva de emergência,sim
+2025-09-11,chat,investimentos,Cliente perguntou quais investimentos ele poderia adquirir,sim
+2025-09-11,email,investimentos,Cliente enviou e-mail solicitando orientação sobre opções de investimento de perfil conservador,sim
+2025-10-03,chat,reserva de emergência,Cliente verificou saldo atual da reserva e perguntou se já cobre 6 meses de despesas enquanto planeja entrada na cas,sim
+2025-10-04,email,investimentos,Cliente pediu simulação de investimentos conservadores para acumular valor para entrada da casa em 2 anos,sim
+2025-10-05,telefone,reserva de emergência,Cliente ligou para confirmar rendimento mensal da reserva e avaliar possibilidade de aportar mais recursos,sim
+2025-10-06,chat,investimentos,Cliente perguntou quais aplicações de baixo risco são indicadas para objetivo de compra de imóvel,sim
+2025-10-07,email,planejamento financeiro,Cliente solicitou plano para dividir aportes entre reserva de emergência e fundo para entrada na casa,sim
+2025-10-08,telefone,investimentos,Cliente quis entender diferença entre CDB e Tesouro para objetivo de médio prazo,sim
+2025-10-09,chat,reserva de emergência,Cliente perguntou se pode manter reserva no mesmo investimento enquanto guarda dinheiro para imóvel,sim
+2025-10-10,email,investimentos,Cliente solicitou simulação de aportes mensais visando acumular 80 mil reais para entrada,sim
+2025-10-11,telefone,planejamento financeiro,Cliente pediu ajuda para organizar metas financeiras para compra da casa,sim
+2025-10-12,chat,investimentos,Cliente questionou rentabilidade média de renda fixa para prazo de 24 meses,sim
+2025-10-13,email,reserva de emergência,Cliente pediu extrato detalhado da reserva e projeção de rendimento anual,sim
+2025-10-14,telefone,investimentos,Cliente buscou orientação sobre LCI isenta de IR para objetivo imobiliário,sim
+2025-10-15,chat,planejamento financeiro,Cliente quer saber quanto precisa poupar por mês para dar entrada em 3 anos,sim
+2025-10-16,email,investimentos,Cliente perguntou sobre fundos conservadores com liquidez para compra de imóvel,sim
+2025-10-17,telefone,reserva de emergência,Cliente confirmou se reserva está aplicada em produto com liquidez imediata,sim
+2025-10-18,chat,investimentos,Cliente solicitou sugestão de carteira conservadora para acumular entrada da casa,sim
+2025-10-19,email,planejamento financeiro,Cliente pediu simulação considerando aumento salarial recente,sim
+2025-10-20,telefone,investimentos,Cliente avaliou migração de poupança para CDB visando maior rentabilidade para entrada,sim
+2025-10-21,chat,reserva de emergência,Cliente perguntou se reserva atual precisa ser ajustada após aumento de despesas,sim
+2025-10-22,email,investimentos,Cliente pediu comparação entre Tesouro Selic e CDB liquidez diária,sim
+2025-10-23,telefone,planejamento financeiro,Cliente solicitou plano financeiro combinando reserva e objetivo imobiliário,sim
+2025-10-24,chat,investimentos,Cliente perguntou prazo ideal de aplicação para entrada em 30 meses,sim
+2025-10-25,email,reserva de emergência,Cliente quis confirmar valor ideal de reserva antes de investir para imóvel,sim
+2025-10-26,telefone,investimentos,Cliente buscou opções com garantia do FGC para acumular entrada,sim
+2025-10-27,chat,planejamento financeiro,Cliente solicitou ajuda para organizar orçamento visando compra da casa,sim
+2025-10-28,email,investimentos,Cliente pediu simulação com aporte inicial de 20 mil reais,sim
+2025-10-29,telefone,reserva de emergência,Cliente confirmou se rendimento da reserva está acima da poupança,sim
+2025-10-30,chat,investimentos,Cliente perguntou se vale investir parte da reserva no objetivo imobiliário,sim
+2025-10-31,email,planejamento financeiro,Cliente solicitou acompanhamento mensal do progresso da meta,sim
+2025-11-01,telefone,investimentos,Cliente quis saber risco de investir em renda fixa prefixada para 2 anos,sim
+2025-11-02,chat,reserva de emergência,Cliente verificou saldo atualizado e rendimento acumulado,sim
+2025-11-03,email,investimentos,Cliente pediu orientação sobre diversificação conservadora para entrada de imóvel,sim
+2025-11-04,telefone,planejamento financeiro,Cliente pediu cálculo de meta para entrada de 100 mil reais,sim
+2025-11-05,chat,investimentos,Cliente perguntou sobre liquidez de aplicações para saque no momento da compra,sim
+2025-11-06,email,reserva de emergência,Cliente confirmou se valor atual cobre 8 meses de despesas,sim
+2025-11-07,telefone,investimentos,Cliente solicitou carteira recomendada para prazo de 36 meses,sim
+2025-11-08,chat,planejamento financeiro,Cliente pediu ajuda para ajustar aportes após aumento de aluguel,sim
+2025-11-09,email,investimentos,Cliente perguntou sobre rendimento líquido considerando imposto de renda,sim
+2025-11-10,telefone,reserva de emergência,Cliente verificou possibilidade de reforçar reserva antes de investir,sim
+2025-11-11,chat,investimentos,Cliente quis saber qual produto tem melhor relação risco-retorno para 2 anos,sim
+2025-11-12,email,planejamento financeiro,Cliente pediu simulação considerando financiamento em 2028,sim
+2025-11-13,telefone,investimentos,Cliente avaliou Tesouro IPCA para proteger valor da entrada,sim
+2025-11-14,chat,reserva de emergência,Cliente perguntou se pode manter reserva e meta no mesmo banco,sim
+2025-11-15,email,investimentos,Cliente solicitou detalhamento de taxas de administração,sim
+2025-11-16,telefone,planejamento financeiro,Cliente pediu orientação para manter disciplina de aportes mensais,sim
+2025-11-17,chat,investimentos,Cliente solicitou simulação com aportes crescentes anuais,sim
+2025-11-18,email,reserva de emergência,Cliente confirmou liquidez imediata em caso de imprevistos,sim
+2025-11-19,telefone,investimentos,Cliente pediu comparação entre renda fixa e multimercado conservador,sim
+2025-11-20,chat,planejamento financeiro,Cliente pediu resumo geral do plano para entrada na casa,sim
+2025-11-21,email,investimentos,Cliente solicitou recomendação final para iniciar aportes mensais automáticos,sim
+ap

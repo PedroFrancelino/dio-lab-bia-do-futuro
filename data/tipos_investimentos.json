@@ -38,5 +38,55 @@
     "rentabilidade": "Variável",
     "aporte_minimo": 100.00,
     "indicado_para": "Perfil arrojado com foco no longo prazo"
+  },
+  {
+    "nome": "Tesouro IPCA+",
+    "categoria": "renda_fixa",
+    "risco": "baixo",
+    "rentabilidade": "IPCA + taxa prefixada",
+    "aporte_minimo": 30.00,
+    "indicado_para": "Proteção contra inflação e objetivos de médio/longo prazo"
+  },
+  {
+    "nome": "Previdência Privada (PGBL/VGBL)",
+    "categoria": "previdência",
+    "risco": "variável",
+    "rentabilidade": "Conforme a carteira escolhida",
+    "aporte_minimo": 100.00,
+    "indicado_para": "Objetivos de longo prazo e benefícios fiscais"
+  },
+ {
+    "nome": "Criptomoedas (Bitcoin)",
+    "categoria": "criptoativos",
+    "risco": "muito alto",
+    "rentabilidade": "Variável e especulativa",
+    "aporte_minimo": 50.00,
+    "indicado_para": "Perfil muito arrojado"
+  },
+  {
+    "nome": "Poupança",
+    "categoria": "renda_fixa",
+    "risco": "baixo",
+    "rentabilidade": "TR + juros (enquanto regra vigente)",
+    "aporte_minimo": 1.00,
+    "indicado_para": "Reserva de emergência básica"
+  },
+  {
+    "nome": "Fundo Imobiliário (FII)",
+    "categoria": "fundos imobiliários",
+    "risco": "médio",
+    "rentabilidade": "Aluguel + valorização das cotas",
+    "aporte_minimo": 100.00,
+    "indicado_para": "Renda passiva com imóveis sem comprar imóvel físico"
+  },
+  {
+    "nome": "ETF de Ações (Ex: BOVA11)",
+    "categoria": "ações",
+    "risco": "alto",
+    "rentabilidade": "Variável (índice de mercado)",
+    "aporte_minimo": 100.00,
+    "indicado_para": "Quem quer diversificação em ações com baixo custo"
   }
+
+    
 ]
