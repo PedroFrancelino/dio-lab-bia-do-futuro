@@ -1,0 +1,34 @@
+{
+  "nome": "Alexsandro Silva",
+  "idade": 32,
+  "profissao": "Analista de Sistemas",
+  "renda_mensal": 12000.00,
+  "renda_extra": 2000.00,
+  "estado_civil": "Casado",
+  "filhos": 2,
+  "cidade": "Recife",
+  "perfil_investidor": "Conservador",
+  "objetivo_principal": "Concluir a meta de reserva de emergência e dar entrada na casa",
+  "objetivo_secundario": "Viajar para Londres",
+  "patrimonio_total": 9000.00,
+  "reserva_emergencia_atual": 8000.00,
+  "aceita_risco": false,
+  "metas": [
+    {
+      "meta": "Completar reserva de emergência",
+      "valor_necessario": 17000.00,
+      "prazo": "2027-07"
+    },
+    {
+      "meta": "Entrada da casa",
+      "valor_necessario": 75000.00,
+      "prazo": "2028-04"
+    },
+    {
+      "meta": "Viajar para Londres",
+      "valor_necessario": 45000.00,
+      "prazo": "2027-12"
+    }
+
+  ]
+}
