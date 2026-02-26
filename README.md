@@ -1,149 +1,90 @@
-# 🤖 Agente Financeiro Inteligente com IA Generativa
+# 💸 Ju — Especialista em Inteligência Financeira
+Ju é uma assistente virtual conversacional desenvolvida com IA Generativa para ajudar pessoas iniciantes a organizarem suas finanças, planejarem metas e entenderem investimentos de forma simples e acessível.
 
-## Contexto
+# 🎯 Problema que resolve
+Muitas pessoas recebem seu salário mas não conseguem visualizar para onde o dinheiro vai, nem transformar objetivos como reserva de emergência, entrada de imóvel ou viagem internacional em planos concretos. A Ju resolve isso de forma didática, sem julgamentos e com linguagem acessível.
 
-Os assistentes virtuais no setor financeiro estão evoluindo de simples chatbots reativos para **agentes inteligentes e proativos**. Neste desafio, você vai idealizar e prototipar um agente financeiro que utiliza IA Generativa para:
+# 🤖 Sobre o Agente
+Atributo Descrição
+Nome:    Ju        
 
-- **Antecipar necessidades** ao invés de apenas responder perguntas
-- **Personalizar** sugestões com base no contexto de cada cliente
-- **Cocriar soluções** financeiras de forma consultiva
-- **Garantir segurança** e confiabilidade nas respostas (anti-alucinação)
 
-> [!TIP]
-> Na pasta [`examples/`](./examples/) você encontra referências de implementação para cada etapa deste desafio.
-
----
-
-## O Que Você Deve Entregar
-
-### 1. Documentação do Agente
-
-Defina **o que** seu agente faz e **como** ele funciona:
-
-- **Caso de Uso:** Qual problema financeiro ele resolve? (ex: consultoria de investimentos, planejamento de metas, alertas de gastos)
-- **Persona e Tom de Voz:** Como o agente se comporta e se comunica?
-- **Arquitetura:** Fluxo de dados e integração com a base de conhecimento
-- **Segurança:** Como evitar alucinações e garantir respostas confiáveis?
-
-📄 **Template:** [`docs/01-documentacao-agente.md`](./docs/01-documentacao-agente.md)
-
----
-
-### 2. Base de Conhecimento
-
-Utilize os **dados mockados** disponíveis na pasta [`data/`](./data/) para alimentar seu agente:
-
-| Arquivo | Formato | Descrição |
-|---------|---------|-----------|
-| `transacoes.csv` | CSV | Histórico de transações do cliente |
-| `historico_atendimento.csv` | CSV | Histórico de atendimentos anteriores |
-| `perfil_investidor.json` | JSON | Perfil e preferências do cliente |
-| `produtos_financeiros.json` | JSON | Produtos e serviços disponíveis |
-
-Você pode adaptar ou expandir esses dados conforme seu caso de uso.
-
-📄 **Template:** [`docs/02-base-conhecimento.md`](./docs/02-base-conhecimento.md)
-
----
-
-### 3. Prompts do Agente
-
-Documente os prompts que definem o comportamento do seu agente:
-
-- **System Prompt:** Instruções gerais de comportamento e restrições
-- **Exemplos de Interação:** Cenários de uso com entrada e saída esperada
-- **Tratamento de Edge Cases:** Como o agente lida com situações limite
-
-📄 **Template:** [`docs/03-prompts.md`](./docs/03-prompts.md)
-
----
-
-### 4. Aplicação Funcional
-
-Desenvolva um **protótipo funcional** do seu agente:
-
-- Chatbot interativo (sugestão: Streamlit, Gradio ou similar)
-- Integração com LLM (via API ou modelo local)
-- Conexão com a base de conhecimento
-
-📁 **Pasta:** [`src/`](./src/)
-
----
-
-### 5. Avaliação e Métricas
-
-Descreva como você avalia a qualidade do seu agente:
-
-**Métricas Sugeridas:**
-- Precisão/assertividade das respostas
-- Taxa de respostas seguras (sem alucinações)
-- Coerência com o perfil do cliente
-
-📄 **Template:** [`docs/04-metricas.md`](./docs/04-metricas.md)
-
----
-
-### 6. Pitch
-
-Grave um **pitch de 3 minutos** (estilo elevador) apresentando:
-
-- Qual problema seu agente resolve?
-- Como ele funciona na prática?
-- Por que essa solução é inovadora?
-
-📄 **Template:** [`docs/05-pitch.md`](./docs/05-pitch.md)
-
----
-
-## Ferramentas Sugeridas
-
-Todas as ferramentas abaixo possuem versões gratuitas:
-
-| Categoria | Ferramentas |
-|-----------|-------------|
-| **LLMs** | [ChatGPT](https://chat.openai.com/), [Copilot](https://copilot.microsoft.com/), [Gemini](https://gemini.google.com/), [Claude](https://claude.ai/), [Ollama](https://ollama.ai/) |
-| **Desenvolvimento** | [Streamlit](https://streamlit.io/), [Gradio](https://www.gradio.app/), [Google Colab](https://colab.research.google.com/) |
-| **Orquestração** | [LangChain](https://www.langchain.com/), [LangFlow](https://www.langflow.org/), [CrewAI](https://www.crewai.com/) |
-| **Diagramas** | [Mermaid](https://mermaid.js.org/), [Draw.io](https://app.diagrams.net/), [Excalidraw](https://excalidraw.com/) |
-
----
-
-## Estrutura do Repositório
-
+# 🗂️ Estrutura do Projeto
 ```
-📁 lab-agente-financeiro/
 │
-├── 📄 README.md
+├── app.py                            # Aplicação principal (Streamlit + Ollama)
 │
-├── 📁 data/                          # Dados mockados para o agente
-│   ├── historico_atendimento.csv     # Histórico de atendimentos (CSV)
-│   ├── perfil_investidor.json        # Perfil do cliente (JSON)
-│   ├── produtos_financeiros.json     # Produtos disponíveis (JSON)
-│   └── transacoes.csv                # Histórico de transações (CSV)
+├── 📁 data/
+│   ├── historico_atendimento.csv     # Histórico de atendimentos da Ju com o cliente
+│   ├── perfil_cliente.json           # Perfil, metas e situação financeira do cliente
+│   ├── tipos_investimentos.json      # Catálogo de produtos financeiros disponíveis
+│   └── transacoes.csv                # Transações mensais de receitas e despesas
 │
-├── 📁 docs/                          # Documentação do projeto
-│   ├── 01-documentacao-agente.md     # Caso de uso e arquitetura
-│   ├── 02-base-conhecimento.md       # Estratégia de dados
-│   ├── 03-prompts.md                 # Engenharia de prompts
-│   ├── 04-metricas.md                # Avaliação e métricas
-│   └── 05-pitch.md                   # Roteiro do pitch
-│
-├── 📁 src/                           # Código da aplicação
-│   └── app.py                        # (exemplo de estrutura)
-│
-├── 📁 assets/                        # Imagens e diagramas
-│   └── ...
-│
-└── 📁 examples/                      # Referências e exemplos
-    └── README.md
+└── 📁 docs/
+    ├── 01-documentacao-agente.md     # Caso de uso, persona e arquitetura
+    ├── 02-base-conhecimento.md       # Estratégia de dados e integração
+    ├── 03-prompts.md                 # System prompt, exemplos e edge cases
+    ├── 04-metricas.md                # Métricas de avaliação e testes
+    └── 05-pitch.md                   # Roteiro do pitch de apresentação
+```
+## Arquitetura
+
+### Diagrama
+
+```mermaid
+flowchart TD
+    A[Cliente] -->|Mensagem| B["Streamlit (Interface visual)"]
+    B --> C[LLM]
+    C --> D[Base de Conhecimento]
+    D --> C
+    C --> E[Validação]
+    E --> F[Resposta]
 ```
 
+### Componentes
+
+| Componente | Descrição |
+|------------|-----------|
+| Interface | [Steamlit](https://streamlit.io/) |
+| LLM | Ollama (local) |
+| Base de Conhecimento | JSON/CSV mockados na pasta `data` |
+
 ---
 
-## Dicas Finais
 
-1. **Comece pelo prompt:** Um bom system prompt é a base de um agente eficaz
-2. **Use os dados mockados:** Eles garantem consistência e evitam problemas com dados sensíveis
-3. **Foque na segurança:** No setor financeiro, evitar alucinações é crítico
-4. **Teste cenários reais:** Simule perguntas que um cliente faria de verdade
-5. **Seja direto no pitch:** 3 minutos passam rápido, vá ao ponto
+# ▶️ Como rodar
+Pré-requisitos: Python 3.10+, Ollama rodando localmente.
+bash# Instale as dependências
+pip install streamlit pandas requests
+
+# Suba o modelo no Ollama
+```bash
+# Baixe o modelo
+ollama pull gpt-oss:20b-cloud
+
+# Inicie o servidor Ollama
+ollama serve
+```
+
+# Rode a aplicação
+```bash
+streamlit run app.py
+```
+
+# 🧠 Como funciona
+A Ju carrega automaticamente os dados do cliente ao iniciar e os injeta no prompt como contexto. A partir daí, responde perguntas com base em:
+
+Perfil e metas do cliente (perfil_cliente.json)
+Gastos e receitas recentes (transacoes.csv)
+Histórico de conversas anteriores (historico_atendimento.csv)
+Catálogo de investimentos compatíveis com o perfil (tipos_investimentos.json)
+
+
+# 🔒 Segurança e Limitações
+
+Não solicita nem armazena dados sensíveis (senhas, e-mails etc.)
+Não inventa informações — admite quando não sabe algo
+Não realiza investimentos autonomamente
+Não substitui um profissional financeiro certificado
+Recomenda investimentos apenas alinhados ao perfil do cliente (ex: conservador → sem cripto ou ações)
+
