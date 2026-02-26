@@ -31,3 +31,8 @@ ollama serve
 # 3. Rosas o app
 streamlit run .\src\app.py
 ```
+
+## Evidência de Execução
+
+<img width="1902" height="957" alt="image" src="https://github.com/user-attachments/assets/88ddd64a-f5df-4980-a49f-c3af9d18cd70" />
+
