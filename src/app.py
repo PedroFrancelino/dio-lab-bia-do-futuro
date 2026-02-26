@@ -7,7 +7,7 @@ import streamlit as st
 #------------------- Configuração OLLAMA -------------------
 
 OLLAMA_URL = "http://localhost:11434/api/generate"
-MODELO = "gpt-oss:20b"
+MODELO = "gpt-oss:20b-cloud"
 
 #------------------------------
 #Carregamento dos arquivos CSV
@@ -24,7 +24,7 @@ transacoes = pd.read_csv('data/transacoes.csv')
 with open('data/perfil_cliente.json', 'r', encoding='utf-8') as f:
     perfil = json.load(f)
 
-with open('data/tipos_investimento.json', 'r', encoding='utf-8') as f:
+with open('data/tipos_investimentos.json', 'r', encoding='utf-8') as f:
     investimentos = json.load(f)
     
 #----------------------
